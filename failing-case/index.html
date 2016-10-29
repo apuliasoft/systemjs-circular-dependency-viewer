@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>SystemJS</title>
+	<base href="/" />
+</head>
+<body>
+
+	<noscript>
+		<div class="deprecation-warning">
+			<h1>Please enable Javascript</h1>
+			<p>Demo requires your browser to have Javascript enabled.
+			<a href="http://enable-javascript.com" target="_blank">Learn more</a></p>
+		</div>
+	</noscript>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.40/system.js"></script>
+	<script type="text/javascript" src="system.config.js"></script>
+
+    <script>
+    System.import('app')
+      .then(null, console.error.bind(console));
+  </script>
+
+</body>
+</html>

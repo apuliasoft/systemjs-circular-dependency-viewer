@@ -1,0 +1,22 @@
+{
+  "name": "systemjs-circular-dependency-viewer",
+  "version": "1.0.0",
+  "description": "This tool aim to the discovery of the Circular Dependencies in SystemJS projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apuliasoft/systemjs-circular-dependency-viewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apuliasoft/systemjs-circular-dependency-viewer/issues"
+  },
+  "homepage": "https://github.com/apuliasoft/systemjs-circular-dependency-viewer#readme",
+  "dependencies": {
+    "strip-comment": "^1.1.3"
+  }
+}
